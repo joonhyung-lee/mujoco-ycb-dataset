@@ -1,0 +1,19 @@
+<mujoco model="ycb scene">
+  <compiler meshdir="./ycb_merged_v2/obj/" texturedir="./ycb_merged_v2/png/" />
+  
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0" />
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" />
+    </default>
+  </default>
+  <!-- Floor and Sky -->
+  <include file="./object/floor_sky.xml" />
+
+  <!-- YCB -->
+  <include file="./ycb_merged_v2/xml/adjustable_wrench.xml" />
+  <include file="./ycb_merged_v2/xml/banana.xml" />
+
+</mujoco>
