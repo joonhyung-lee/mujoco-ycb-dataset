@@ -1,7 +1,7 @@
 # mujoco-ycb-dataset
 Tools to download models from the [YCB dataset](https://www.ycbbenchmarks.com/) and use them with the MuJoCo simulator.
 
-![YCB Models in Gazebo](images/ycb_mujoco_scene.png)
+![YCB Models in MuJoCo](images/ycb_mujoco_scene.png)
 
 ## Python Setup
 
